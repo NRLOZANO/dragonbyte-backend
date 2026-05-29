@@ -15,7 +15,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/cursos")
-//@CrossOrigin(origins = "*") para cuando lo conectemos con React
 public class CursoController {
 
     @Autowired

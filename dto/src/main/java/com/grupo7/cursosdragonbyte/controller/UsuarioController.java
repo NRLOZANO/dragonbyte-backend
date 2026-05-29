@@ -15,8 +15,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/usuarios")
-//@CrossOrigin(origins = "*") // Para conectarlo con React
-
 public class UsuarioController {
 
     @Autowired

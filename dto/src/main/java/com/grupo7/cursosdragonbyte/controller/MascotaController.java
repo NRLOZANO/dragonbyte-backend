@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/mascotas")
-//@CrossOrigin(origins = "*") para cuando lo conectemos con React
 public class MascotaController {
 
     @Autowired

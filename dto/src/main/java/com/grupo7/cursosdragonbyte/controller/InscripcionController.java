@@ -15,7 +15,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/inscripciones")
-//@CrossOrigin(origins = "*") para cuando lo conectemos con React
 public class InscripcionController {
 
     @Autowired
